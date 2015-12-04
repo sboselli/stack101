@@ -54,7 +54,15 @@ Packages:
   + babel
   + browserify
   + browsersync
+  + del
   + gulp
+    + gulp-autoprefixer
+    + gulp-data
+    + gulp-htmlmin
+    + gulp-if
+    + gulp-sass
+    + gulp-sequence
+    + gulp-sourcemaps
   + uglify-js
   + minify-css
   + webpack
