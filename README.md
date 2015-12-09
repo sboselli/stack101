@@ -43,7 +43,6 @@
 + TEMPLATES
   + ejs
 + SERVER / SEC
-  + compression ??
   + helmet
 + UTIL
   + lodash
@@ -53,28 +52,23 @@
   + saffy
   + validator
 + DEV / PROD
-  + babel
   + browserify
-  + browsersync
+  + browser-sync
   + del
   + gulp
-    + gulp-autoprefixer
-    + gulp-data
-    + gulp-htmlmin
-    + gulp-if
-    + gulp-sass
+    + gulp-jshint
+    + gulp-nodemon
+    + gulp-plumber
     + gulp-sequence
-    + gulp-sourcemaps
-  + uglify-js
-  + minify-css
-  + webpack
+    + gulp-watch
+  + tiny-lr (liveReload)
 + TESTS
   + jshint
     + jshint-stylish
   + karma
   + mocha
   + chai
-  + sinon
+  + sinon (fake endpoints)
+  + istanbul (test coverage)
   + travis (just the .travis.yml file)
-  + istanbul
 ```
