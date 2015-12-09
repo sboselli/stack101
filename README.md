@@ -1,9 +1,7 @@
-=======================
 # Stack101 JS Starter #
 =======================
-
-Directory Structure:
-=======================
+# Directory Structure:
+```
 ├── app/          // Your code here !
 ├── assets/       // All your static stuff goes here !
 │   ├── css         // CSS assets pre-compile, pre-minify
@@ -24,17 +22,21 @@ Directory Structure:
 │   ├── ctrls/      // Throw your routes/controllers here. One file per site func recommended.
 │   └── index.js    // Routes entry point
 ├── src/          // Pre-compiled JS
+├── tasks/        // Gulp tasks (one per file!)
 ├── test/         // Tests
 ├── views/        // Templates and views
 ├── README.md
 ├── LICENSE
 ├── app.js        // App entry point
+├── gulpfiles.js  // Gulp entry point, tasks go in ./tasks/
 ├── package.json
 ├── .gitignore    // Don't forget to customize this
 └── .travis.yml   // Don't forget to customize this
+```
 
-Packages:
-=======================
+# Packages:
+
+```
 + APP
   + express
   + express-session
@@ -75,5 +77,4 @@ Packages:
   + sinon
   + travis (just the .travis.yml file)
   + istanbul
-
-
+```
