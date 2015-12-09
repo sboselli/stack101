@@ -3,8 +3,7 @@ var gulp        = require('gulp');
 var source      = require('vinyl-source-stream');
 
 
-var paths = ['./public/js/nav.js',
-             './public/js/channelDetails.js'];
+var paths = ['./public/js/**/*.js'];
 
 gulp.task('browserify', function() {
     return browserify({ entries: paths.browserify })

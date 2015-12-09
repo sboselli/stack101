@@ -1,18 +1,10 @@
-var browserify  = require('browserify');
 var gulp        = require('gulp');
-var jshint      = require('gulp-jshint');
-var nodemon     = require('gulp-nodemon');
-var plumber     = require('gulp-plumber');
 var sequence    = require('gulp-sequence');
 var watch       = require('gulp-watch');
-var source      = require('vinyl-source-stream');
-var server      = require('tiny-lr')();
 var browserSync = require('browser-sync');
 var reload      = browserSync.reload;
-var lrPort      = 35729;
-
 var requireDir  = require('require-dir');
-var tasks       = requireDir('./tasks');
+var tasks       = requireDir('./tasks', { recurse: true });
 
 var paths = {
   watch:      ["./views/**/*.ejs",
