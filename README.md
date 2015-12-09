@@ -53,6 +53,7 @@
   + validator
 + DEV / PROD
   + browserify
+  + browserify-shim
   + browser-sync
   + del
   + gulp
